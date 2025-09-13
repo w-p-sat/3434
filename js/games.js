@@ -251,28 +251,6 @@ if (detailsContainer) {
                                             <div class="sparkle" style="--i:7; --x:-0.9"></div>
                                             <div class="sparkle" style="--i:8; --x:0.2"></div>
                                             <div class="sparkle" style="--i:9; --x:-0.3"></div>
-
-                                            <div class="sparkle" style="--i:10; --x:0.5"></div>
-                                            <div class="sparkle" style="--i:11; --x:-0.6"></div>
-                                            <div class="sparkle" style="--i:12; --x:0.7"></div>
-                                            <div class="sparkle" style="--i:13; --x:-0.4"></div>
-                                            <div class="sparkle" style="--i:14; --x:0.9"></div>
-                                            <div class="sparkle" style="--i:15; --x:-0.8"></div>
-                                            <div class="sparkle" style="--i:16; --x:0.1"></div>
-                                            <div class="sparkle" style="--i:17; --x:-0.2"></div>
-                                            <div class="sparkle" style="--i:18; --x:0.4"></div>
-                                            <div class="sparkle" style="--i:19; --x:-0.5"></div>
-
-                                            <div class="sparkle" style="--i:20; --x:0.3"></div>
-                                            <div class="sparkle" style="--i:21; --x:-0.6"></div>
-                                            <div class="sparkle" style="--i:22; --x:0.8"></div>
-                                            <div class="sparkle" style="--i:23; --x:-0.7"></div>
-                                            <div class="sparkle" style="--i:24; --x:0.2"></div>
-                                            <div class="sparkle" style="--i:25; --x:-0.3"></div>
-                                            <div class="sparkle" style="--i:26; --x:0.6"></div>
-                                            <div class="sparkle" style="--i:27; --x:-0.9"></div>
-                                            <div class="sparkle" style="--i:28; --x:0.5"></div>
-                                            <div class="sparkle" style="--i:29; --x:-0.4"></div>
                                             <div class="label">Curent RTP</div>
                                             <div class="percentage-value" id="modal_currentRTP_${game.id}">${game.currentRTP || '--'}%</div>
                                         </div>
@@ -299,28 +277,6 @@ if (detailsContainer) {
                                             <div class="sparkle" style="--i:7; --x:-0.9"></div>
                                             <div class="sparkle" style="--i:8; --x:0.2"></div>
                                             <div class="sparkle" style="--i:9; --x:-0.3"></div>
-
-                                            <div class="sparkle" style="--i:10; --x:0.5"></div>
-                                            <div class="sparkle" style="--i:11; --x:-0.6"></div>
-                                            <div class="sparkle" style="--i:12; --x:0.7"></div>
-                                            <div class="sparkle" style="--i:13; --x:-0.4"></div>
-                                            <div class="sparkle" style="--i:14; --x:0.9"></div>
-                                            <div class="sparkle" style="--i:15; --x:-0.8"></div>
-                                            <div class="sparkle" style="--i:16; --x:0.1"></div>
-                                            <div class="sparkle" style="--i:17; --x:-0.2"></div>
-                                            <div class="sparkle" style="--i:18; --x:0.4"></div>
-                                            <div class="sparkle" style="--i:19; --x:-0.5"></div>
-
-                                            <div class="sparkle" style="--i:20; --x:0.3"></div>
-                                            <div class="sparkle" style="--i:21; --x:-0.6"></div>
-                                            <div class="sparkle" style="--i:22; --x:0.8"></div>
-                                            <div class="sparkle" style="--i:23; --x:-0.7"></div>
-                                            <div class="sparkle" style="--i:24; --x:0.2"></div>
-                                            <div class="sparkle" style="--i:25; --x:-0.3"></div>
-                                            <div class="sparkle" style="--i:26; --x:0.6"></div>
-                                            <div class="sparkle" style="--i:27; --x:-0.9"></div>
-                                            <div class="sparkle" style="--i:28; --x:0.5"></div>
-                                            <div class="sparkle" style="--i:29; --x:-0.4"></div>
                                             <div class="label">Average RTP</div>
                                             <div class="percentage-value" id="modal_averageRTP_${game.id}">${game.averageRTP || '--'}%</div>
                                         </div>
@@ -370,5 +326,6 @@ if (detailsContainer) {
 
 // Запускаємо рендеринг всіх ігор
 renderAllGames();
+
 
 
