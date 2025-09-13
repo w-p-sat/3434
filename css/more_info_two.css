@@ -372,15 +372,16 @@
 
 /* Точки */
 .sparkle {
+  border-radius: 50%;
   position: absolute;
-  width: 1px;
+  width: 5px;
   height: 5px;
   border-radius: 50%;
   background-color: #00ffff;
   box-shadow: 0 0 5px var(--neon-color-cyan);
   opacity: 0;
-  animation: flame-like-sparkle 6s infinite ease-out;
-  animation-delay: calc(var(--i) * 1s); /* кожна точка має унікальну затримку */
+  animation: flame-like-sparkle 1s infinite linear;
+  animation-delay: calc(var(--i) * 0.1s); /* кожна точка має унікальну затримку */
   will-change: transform, opacity;
 }
 
@@ -457,4 +458,5 @@
   background-repeat: no-repeat;
   background-origin: border-box;
 }
+
 
